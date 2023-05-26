@@ -18,6 +18,7 @@ public class Main {
         Integer artInt = b2.getArticle();
         String artStr = b3.getArticle();
         System.out.println("Hola desde el local");
+        System.out.println("Hola desde github remoto");
       
         
     }
