@@ -17,7 +17,7 @@ public class Main {
         Character c = b1.getArticle();
         Integer artInt = b2.getArticle();
         String artStr = b3.getArticle();
-        
+        System.out.println("Hola desde el local");
       
         
     }
