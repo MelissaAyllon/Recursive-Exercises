@@ -8,7 +8,7 @@ package Recursividad;
  *
  * @author melis
  */
-public class Ejercicio1 {
+public class Ejercicio1Recursividad {
     
     /*
 Escribe una función recursiva llamada sumaDigitos que tome un número entero no negativo como parámetro y

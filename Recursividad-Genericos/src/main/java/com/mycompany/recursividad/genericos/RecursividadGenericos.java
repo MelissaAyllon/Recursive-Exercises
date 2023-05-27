@@ -7,7 +7,8 @@ package com.mycompany.recursividad.genericos;
 
 import Genericos.Ejercicio2;
 import Genericos.Ejercicio2ClaseGenerica;
-import Recursividad.Ejercicio1;
+import Recursividad.Ejercicio1Recursividad;
+import Recursividad.Ejercicio2Recursividad;
 
 /**
  *
@@ -21,7 +22,12 @@ public class RecursividadGenericos {
         
         //Primer ejercicio Recursividad
         System.out.println("Primer ejercicio recursividad: Suma de los digitos de un numero entregado");
-        System.out.println(Ejercicio1.sumaDigitos(12345));
+        System.out.println(Ejercicio1Recursividad.sumaDigitos(12345));
+        System.out.println("");
+        
+        //Segundo ejercicio Recursividad
+        System.out.println("Segundo ejercicio recursividad: Cuenta regresiva desde un numero hasta 0");
+        Ejercicio2Recursividad.contarRegresivamente(5);
         System.out.println("");
         
         //Segundo ejercicio de genericos
